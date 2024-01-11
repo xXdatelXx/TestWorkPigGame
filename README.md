@@ -1,6 +1,4 @@
-# Unity third person samurai game
-
-Work in progress
+# Pig game Test work
 
 ## `Documentation`
 - [**Code style**](Template.Documentation/CodeStyle.md)
@@ -8,13 +6,4 @@ Work in progress
 - [**Plugins**](Template.Documentation/Plugins.md)
 - [**Scenes**](Template.Documentation/Scenes.md)
 
-## `Communication`
-- **Telegram:** [@X_datel_X](https://t.me/X_datel_X) (preferably)
-- **Email:** artemgurv@gmail.com
-
-## `License`
-This game is under the GNU General Public License.
-
 ***
-
-_**OOP > FP; C# > Java; Rider > VS.**_
