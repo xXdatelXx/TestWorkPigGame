@@ -5,5 +5,6 @@
 - [**Directory purpose**](Template.Documentation/DirectoryPurpose.md)
 - [**Plugins**](Template.Documentation/Plugins.md)
 - [**Scenes**](Template.Documentation/Scenes.md)
+- [**Editor**](Template.Documentation/Editor.md)
 
 ***
