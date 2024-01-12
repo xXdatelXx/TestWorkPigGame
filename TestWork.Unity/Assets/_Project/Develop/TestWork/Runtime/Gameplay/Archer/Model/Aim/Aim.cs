@@ -4,6 +4,7 @@ using UnityEngine;
 
 namespace TestWork.Gameplay
 {
+    // Archer rotating
     public sealed class Aim : IAim
     {
         private readonly float _shootForce;
@@ -31,6 +32,7 @@ namespace TestWork.Gameplay
             _currentTarget = target;
             Observing = false;
 
+            // Algorithm for calculating the angle of throwing an arrow along the trajectory between the enemy and the archer
             Vector3 offset = target - _transform.position;
             float horizontalDistance = Mathf.Abs(offset.x);
             bool leftSide = offset.x < 0;

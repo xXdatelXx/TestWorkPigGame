@@ -2,6 +2,7 @@ using UnityEditor;
 
 namespace TestWork.Editor
 {
+    //Helpful commands for quick navigation in the editor
     internal static class WindowsCommands
     {
         private static readonly Console Console = new();

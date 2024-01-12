@@ -3,6 +3,7 @@ using UnityEditor;
 
 namespace TestWork.Engine.Unity
 {
+    // Add, Remove scenes in Build menu
     public interface IScenesBuild
     {
         bool Exist(SceneAsset asset);

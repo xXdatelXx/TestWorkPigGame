@@ -22,6 +22,7 @@ namespace TestWork.Gameplay
         public void Tick(float deltaTime) =>
             _behaviour.Execute(deltaTime);
 
+        // To create behavior in Enemy implementations rather than EntryPoint
         protected abstract IBehaviourState CreateBehaviour();
     }
 }

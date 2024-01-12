@@ -2,6 +2,7 @@ using System;
 
 namespace TestWork.Gameplay
 {
+    //IHealth realization for avoid code duplication of assertions
     public sealed class StrictHealth : IHealth
     {
         private readonly IHealth _origin;

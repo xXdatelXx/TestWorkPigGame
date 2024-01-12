@@ -4,6 +4,7 @@ using UnityEngine.SceneManagement;
 
 namespace TestWork.Engine.Unity
 {
+    // For 100% unloading of all resources of the previous scene in empty scene
     public sealed class UnitySceneWithMemoryAllocate : IScene
     {
         private readonly IScene _origin;

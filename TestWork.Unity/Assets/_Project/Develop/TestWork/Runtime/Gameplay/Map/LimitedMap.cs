@@ -3,16 +3,15 @@ using UnityEngine;
 
 namespace TestWork.Gameplay
 {
+    //Not an endless round map
     public sealed class LimitedMap<TObject> : IMap<TObject> where TObject : MonoBehaviour
     {
         private readonly IMap<TObject> _origin;
         private readonly Transform _center;
         private readonly float _radius;
 
-        public IReadOnlyList<TObject> Find()
-        {
-            return _origin.FindInRadius(_center, _radius);
-        }
+        public IReadOnlyList<TObject> Find() =>
+            _origin.FindInRadius(_center, _radius);
 
         public bool Exist(TObject o) => _origin.Exist(o);
 
