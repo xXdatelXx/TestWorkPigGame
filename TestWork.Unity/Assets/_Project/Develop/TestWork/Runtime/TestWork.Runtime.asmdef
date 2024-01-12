@@ -1,0 +1,21 @@
+{
+    "name": "TestWork.Runtime",
+    "rootNamespace": "TestWork",
+    "references": [
+        "VContainer",
+        "UniTask",
+        "TestWork.Engine",
+        "DOTween.Modules",
+        "UniTask.DOTween",
+        "Unity.TextMeshPro"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

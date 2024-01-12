@@ -1,0 +1,13 @@
+# Directory structure
+- **TestWork.Build** - builds folder
+- **TestWork.Documentation** - documentation
+- **TestWork.Unity** - unity project folder
+    - **Assets/_Project** - core project directory, then separete game from other plugins
+        - **Art** - art department folder where you can collect all 3D models, sprites, animations, terrains, shaders, etc
+        - **Scenes** - scenes set and their resources
+        - **Develop/TestWork** - code directory
+            - **Editor** - editor scripts that won't be included in the platform build
+            - **Engine** - like toolkit with not gameplay code, Unity decorators and useful classes
+            - **Runtime** - production code
+                - **Tools** - not gameplay code directory, then inherit from certain game code
+            - **Tests** - tests directory 
